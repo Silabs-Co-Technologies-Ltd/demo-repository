@@ -1,0 +1,17 @@
+
+:root{--bg:#f3f7ff;--panel:#fff;--ink:#17233f;--muted:#61739f;--brand:#345dff;--line:#dbe5ff;--hubbg:#060b1a;--hubpanel:#101935;--hubline:#273767;--hubtxt:#eef3ff;--hubmuted:#b5c2e6;--hubbrand:#57d5ff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif}
+.hub-body{color:var(--hubtxt);background:radial-gradient(1000px 500px at 20% -10%,#23366d,#060b1a)}
+.wrap{max-width:1240px;margin:auto;padding:36px 20px 64px}.lead{max-width:780px;line-height:1.65}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:26px}
+.hub-card{display:block;text-decoration:none;color:inherit;background:linear-gradient(170deg,#15244a,#0e1733);border:1px solid var(--hubline);border-radius:16px;padding:18px;min-height:170px;transition:.2s}
+.hub-card:hover{transform:translateY(-4px);border-color:#61a4ff;box-shadow:0 16px 24px rgba(0,0,0,.35)} .hub-card p{color:var(--hubmuted)} .hub-card span{font-weight:700;color:var(--hubbrand)}
+.page-body{background:var(--bg);color:var(--ink)} .hero{color:#fff;background:linear-gradient(130deg,#1d2f75,#3f3ab6,#0d9edc);padding:64px 24px 86px}
+.container{max-width:1140px;margin:auto}.hero p{max-width:760px;line-height:1.7}.main{max-width:1140px;margin:-44px auto 42px;padding:0 24px;display:grid;gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 10px 28px rgba(43,65,116,.1)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}.kpi{background:#edf2ff;border:1px solid #d9e3ff;border-radius:12px;padding:12px}.kpi b{display:block;font-size:1.2rem}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:14px}@media(max-width:900px){.cols{grid-template-columns:1fr}}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;padding:0;list-style:none}.list li{background:#f4f7ff;border:1px solid #dfebff;padding:10px 12px;border-radius:10px}
+.testi{border-left:4px solid #bfd1ff;padding:8px 12px;background:#f8faff;border-radius:8px;margin:10px 0}.faq dt{font-weight:700;margin-top:10px}.faq dd{margin:6px 0 0;color:var(--muted)}
+.form{display:grid;gap:10px}input,textarea{padding:11px;border:1px solid #ccd9ff;border-radius:10px;font:inherit}button{background:var(--brand);color:#fff;border:0;border-radius:10px;padding:12px;font-weight:700;cursor:pointer}
+.back{display:inline-block;margin-top:6px;color:var(--brand);font-weight:700;text-decoration:none}
